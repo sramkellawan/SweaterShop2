@@ -41,7 +41,7 @@ struct CartView: View {
                         .popover(isPresented: $showingPopup) { // 3
                             ZStack { // 4
 //                                    Color.blue.frame(width: 200, height: 100)
-                                Text("Order Processed!")
+                                Text("Order Processed!!")
                                     .font(.headline)
                                     .fontWeight(.semibold)
                                     .foregroundColor(.white)
